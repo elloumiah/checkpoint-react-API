@@ -1,3 +1,43 @@
-form{
-    margin-top: 5%;
-}
+.App {
+    text-align: center;
+    font-family: Georgia, serif;
+  }
+  h1 {
+    padding-bottom: 50px;
+  }
+  .nav {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+  }
+  .userCard {
+    width: 300px;
+    margin: 20px;
+    background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    
+  }
+  .cards {
+    padding-top: 100px;
+  }
+  .userslist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .users {
+    width: 300px;
+    margin-left: 450px;
+  }
+  .user-name {
+    color: darkcyan;
+    font-size: 400;
+  }
+  .home {
+    background-image: url("https://ngs-it.com/files/course/Backgrounds_in_CSS.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 570px;
+  }
